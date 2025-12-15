@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.bookPage {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    background-color: #eee;
+}
+
+.storyImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textContent {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    gap: 0.2rem;
+}
+
+.charGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.1rem;
+}
+
+.pinyinText {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0.2rem;
+    font-family: monospace;
+    /* Helps with alignment */
+    height: 1.5rem;
+    /* Fixed height to align even if empty */
+}
+
+.charText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1;
+}
+
+.newChars {
+    background-color: #1a31d9;
+    padding: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 2rem;
+    color: white;
+}
+
+.newCharsTitle {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: #f57f17;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 0.8rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pageNumber {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.9rem;
+    color: #999;
+}
