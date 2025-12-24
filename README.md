@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+# 声明
+这是一个开源的(4-8岁)绘儿童本内容网站。每个绘本内容包含文字，拼音和图片。全部图片都有AI生成，可用于儿童练习识字和拼音，不可用于商用，违者自负。
 ## Getting Started
 
 First, run the development server:
